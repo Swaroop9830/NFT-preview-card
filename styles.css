@@ -1,0 +1,103 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: outfit, sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 270px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 5px;
+}
+.data {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.eth-image {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+hr {
+    border-color: hsl(215, 32%, 27%);
+    width: 100%;
+}
+.avatar {
+    max-width: 30px;
+}
+.avatar-icon {
+    border: 1px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+.description {
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+.creator data {
+    font-weight: 300;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    margin: 10px 0;
+}
+h1 {
+    margin: 15px 0 0;
+}
+.h1 {
+    margin: 0;
+    font-weight: 600;
+}
+.h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+.data {
+    justify-content: space-between;
+    font-size: 14px;
+}
+.creator {
+    justify-content: flex-start;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.eth-image-container {
+    position: relative;
+}
+.view-icon-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.view-icon-container:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
